@@ -1,3 +1,56 @@
-*{
-	background-color: whitesmoke;
+body{
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+   background-color: #cf8e32;
+   color: white;
+   height: 100vh;
+   text-align: center;
+   padding-top: 18%;
+}
+
+.nombre{
+   font-size: 150px;
+   font-weight: medium;
+}
+
+.bajada{
+   font-weight: lighter;
+   font-size: 20px;
+}
+
+/* About ME */
+
+.fondoAboutMe{
+   background-color: #efe6d4;
+   height: 100vh;
+}
+
+.sobreMi{
+   color: #cf8e32;
+   font-size: 50px;
+   font-weight: medium;
+   text-align: center;
+}
+
+.imagenDeMi{
+   width:  300px;
+   padding: 10px;
+   border: 10px solid transparent;
+   border-radius: 200px;
+   text-align: center;
+}
+
+.btnCV{
+   background-color: #efe6d4;
+   color: #cf8e32;
+   font-weight: lighter;
+   text-decoration: none;
+}
+
+.btnCV:hover{
+   border: 1px solid #752720;
+   border-radius: 4px;
+   text-decoration: none;
 }
