@@ -11,7 +11,7 @@ header{
    color: white;
    height: 100vh;
    text-align: center;
-   padding-top: 18%;
+   padding-top: 16%;
 }
 
 
@@ -192,6 +192,7 @@ header{
    font-weight: 400;
    text-align: left;
    color: #a2482b;
+   margin-left: 19px;
 }
 
 .alinarAboutMe{
@@ -201,6 +202,7 @@ header{
 
 .circulo{
    font-size: 30px;
+   padding-left: 20px;
 }
 
 .circulo1, .textListIntereses1{
@@ -215,13 +217,43 @@ header{
    color: #752720;
 }
 
-.circulo4, .textListIntereses4{
+.circulo4, .textListIntereses4, .textListIntereses4A{
    color: #000000;
 }
 
-.paddingLeft{
-   padding-left: 103px;
+.circulo1piel{
+   color: #efe6d4;
 }
+
+/* Circulos:hover */
+.circulo1:hover, .textListIntereses1:hover{
+   color: #000000;
+}
+
+.circulo2:hover, .textListIntereses2:hover{
+   color: #752720;
+}
+
+.circulo3:hover, .textListIntereses3:hover{
+   color: #a2482b;
+}
+
+.circulo4:hover, .textListIntereses4:hover{
+   color: #efe6d4;
+}
+
+.circulo1piel:hover{
+   color: #000000;
+}
+
+.circulo4a:hover{
+   color: #cf8e32;
+}
+
+.paddingLeft{
+   padding-left: 87px;
+}
+
 
 /* Footer */
 
