@@ -25,6 +25,12 @@ header{
 .fondoAboutMe{
    background-color: #efe6d4;
    height: 100vh;
+   padding-top: 10%;
+}
+
+.fondoFooter{
+   background-color: #cf8e32;
+   height: 50vh;
 }
 
 .sobreMi{
@@ -34,23 +40,61 @@ header{
    text-align: center;
 }
 
+.pAbaoutMe{
+   color: #752720;
+   font-weight: 600;
+   font-size: 16px;
+   padding-top: 14%;
+   padding-left: 4%;
+   padding-right: 4%;
+   text-align: justify;
+}
+
+.contacto{
+   color: #efe6d4;
+   font-size: 50px;
+   font-weight: medium;
+   text-align: center;
+}
+
 .imagenDeMi{
    width:  300px;
-   padding: 10px;
    border: 10px solid transparent;
    border-radius: 200px;
-   text-align: center;
+   width: 87%;
+   margin: 0 auto;
+}
+
+.paddin{
+   padding-top: 15%;
 }
 
 .btnCV{
    background-color: #efe6d4;
    color: #cf8e32;
-   font-weight: lighter;
+   font-weight: 400;
    text-decoration: none;
+   font-size: 169%;
 }
 
 .btnCV:hover{
-   border: 1px solid #752720;
-   border-radius: 4px;
+   border: 3px solid #752720;
+   border-radius: 10px;
    text-decoration: none;
+   width: 200px;
+   color: #752720;
+   height: 40px;
+}
+
+.colorfinal{
+   background-color: #752720;
+   height: 5vh;
+}
+
+.autor{
+   font-size: 15px;
+   text-align: center;
+   color: white;
+   font-weight: lighter;
+   padding-top: 0.5%;
 }
