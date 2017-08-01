@@ -7,4 +7,6 @@ $(document).ready(function() {
 	    $(this).css('z-index', 10); 
 	    $(this).toggleClass('open');    
 	}) 
+
+	
 });
