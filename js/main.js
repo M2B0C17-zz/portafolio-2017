@@ -8,5 +8,6 @@ $(document).ready(function() {
 	    $(this).toggleClass('open');    
 	}) 
 
-	
+	/* Hover Especial*/
+
 });
