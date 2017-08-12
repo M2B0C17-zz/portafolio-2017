@@ -614,29 +614,37 @@ header{
 .autor{
    font-size: 15px;
    text-align: center;
-   color: #cf8e32;
+   color: #efe6d4;
    font-weight: lighter;
    padding-top: 10px;
 }
- 
-.paddingBttomFoot{
-  padding-bottom: 30px;
-}
 
 .mail{
-  color: #a2482b;
+  color: #efe6d4;
   font-size: 25px;
   font-weight: medium;
 }
 
 .iconFoot{
   text-align: center;
-  color: #a2482b;
+  color: #efe6d4;
   font-size: 80px;
 }
 
 .iconFoot:hover{
   color: #752720;
+}
+
+.derechaIcon{
+  text-align: right;
+}
+
+.centerIcon{
+  text-align: center;
+}
+
+.izquierdaIcon{
+  text-align: left;
 }
 /* Fin Footer */
 
