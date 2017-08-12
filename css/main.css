@@ -9,7 +9,7 @@ body{
    font-family: 'Josefin Sans', sans-serif;
 }
 
-li{
+li, li:hover{
    list-style: none;
 }   
 
@@ -19,6 +19,14 @@ header{
    height: 100vh;
    text-align: center;
 
+}
+
+/* Menú */
+.navCirculos{
+  top: 50%;
+  z-index: 1000;
+  position: fixed;
+  background: none;
 }
 
 /* Tooltip */
@@ -244,10 +252,6 @@ header{
   font-size: 20px;
 }
 
-.centrarMiniCirculos{
-  padding-left: 580px;
-}
-
 /* Fin Circulos mini */
 
 .textListIntereses{
@@ -256,7 +260,7 @@ header{
 }
 
 .circulo1{
-   color: #cf8e32;
+   color: white;
 }
 
 .circulo2{
