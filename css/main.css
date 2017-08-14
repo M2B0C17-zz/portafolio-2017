@@ -23,7 +23,7 @@ header{
 
 /* Menú */
 .navCirculos{
-  top: 50%;
+  top: 45%;
   z-index: 1000;
   position: fixed;
   background: none;
@@ -131,9 +131,9 @@ header{
 }
 
 .img {
-    width: 200px;
-    padding-bottom: 20px;
-    padding-top: 20%;
+  width: 200px;
+  padding-bottom: 20px;
+  margin-top: 22%;
 }
 
 
