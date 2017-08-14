@@ -24,15 +24,44 @@
 <body>
 	<!-- Cabecera -->
 	<header>
-		<div class="container-fluid ">
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-lg-12 col-md-12 hidden-sm hidden-xs">
+				<!-- Desktop -->
+				<div class="col-lg-12 col-md-12 hidden-sm hidden-xs header">
 				    <img src="img/logoMKB.png" class="img">
 				</div>
+				<!-- Fin Desktop -->
+				<!-- Mobile -->
+				<div class="hidden-lg hidden-md col-sm-12 col-xs-12 baseMobileMkb">
+				    <img src="img/logoMKB.png" class="img">
+				</div>
+				<!-- Fin Mobile -->
 			</div>
 		</div>
 	</header>
 	<!-- Fin Cabecera -->
+	<!--Menú Desktop -->
+	<div class="col-lg-12 col-md-12 hidden-sm hidden-xs navCirculos menu btn-group paddingbottom" role="group">
+		<li><a href="#sobreMi" data-tooltip="Sobre Mi"><i class="fa fa-circle circuloMini circulo1" aria-hidden="true"></i></a></li>
+		<li><a href="#skills" data-tooltip="Habilidades"><i class="fa fa-circle circuloMini circulo2" aria-hidden="true"></i></a></li>
+		<li><a href="#proyectos" data-tooltip="Proyectos"><i class="fa fa-circle circuloMini circulo3" aria-hidden="true"></i></a></li>
+		<li><a href="#contacto" data-tooltip="Contacto"><i class="fa fa-circle circuloMini circulo4" aria-hidden="true"></i></a></li>
+	</div>
+	<!-- Menú Mobile -->
+	<div class="hidden-lg hidden-md col-sm-3 col-xs-3">
+        <nav class="navbar navbar-inverse sidebar menuMobile top1">
+        	<a href="#sobreMi" class="seccionMenuMobile">Sobre Mí<i class="fa fa-user icon1MobileMenu iconoAbourMeMobile" aria-hidden="true"></i></a>
+        </nav>
+        <nav class="navbar navbar-inverse sidebar menuMobile top2">
+        	<a href="#skills" class="seccionMenuMobile">Habilidades<i class="fa fa-cogs icon2MobileMenu iconoAbourMeMobile" aria-hidden="true"></i></a>
+        </nav>
+        <nav class="navbar navbar-inverse sidebar menuMobile top3">
+        	<a href="#proyectos" class="seccionMenuMobile">Proyectos<i class="fa fa-laptop icon3MobileMenu iconoAbourMeMobile" aria-hidden="true"></i></a>
+        </nav>
+        <nav class="navbar navbar-inverse sidebar menuMobile top4">
+        	<a href="#contacto" class="seccionMenuMobile">Contacto<i class="fa fa-envelope icon4MobileMenu iconoAbourMeMobile" aria-hidden="true"></i></a>
+        </nav>
+    </div>
 	<!-- About Me -->
 	<section class="fondoAboutMe" id="sobreMi">
 		<div class="container-fluid">
@@ -40,12 +69,6 @@
 				<div class="col-lg-12 col-md-12 hidden-sm hidden-xs">
 					<div class="cajaTextos">
 					    <h1 class="sobreMi">SOBRE MÍ</h1>
-					    <div class="navCirculos menu btn-group paddingbottom" role="group">
-					    	<li><a href="#sobreMi" data-tooltip="Sobre Mi"><i class="fa fa-circle circuloMini circulo1" aria-hidden="true"></i></a></li>
-					    	<li><a href="#skills" data-tooltip="Habilidades"><i class="fa fa-circle circuloMini circulo2" aria-hidden="true"></i></a></li>
-					    	<li><a href="#proyectos" data-tooltip="Proyectos"><i class="fa fa-circle circuloMini circulo3" aria-hidden="true"></i></a></li>
-					    	<li><a href="#contacto" data-tooltip="Contacto"><i class="fa fa-circle circuloMini circulo4" aria-hidden="true"></i></a></li>
-				   		</div> 
 					</div>   
 				</div>
 			</div>
@@ -69,6 +92,31 @@
 				</div>
 			</div>
 		</div>
+		<!-- About Me Mobile -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12 col-xs-12 hidden-lg hidden-md">
+					<h1 class="sobreMi">SOBRE MÍ</h1>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-xs-12 hidden-lg hidden-md paddingMobile">
+						<h3 class="nombre">Macarena Baltra</h3>
+				        <h5 class="bajdaNombreMobile">Front End Developer Jr. & Graphic Design</h5>
+						<p class="pAbaoutMe">Soy Diseñadora Gráfica y me apasiona el diseño en general. Tengo experiencia en el diseño de logotipo, ilustración, diseño editorial y diseño publicitario. Soy una persona trabajadora muy comprometida con mis responsabilidades, transparente, entusiasta, creativa y pro-activa, que trabaja con pasión los diversos trabajos encomendados por mis clientes. En mi tiempo libre me gusta encuadernar y aprender diferentes cosas. Actualmente me encuentro inmersa en el fascinante mundo de la programación web en Laboratoria.</p>  
+					</div>
+					<div class="col-sm-12 col-xs-12 hidden-lg hidden-md paddingMobile">
+						<h3 class="titulosPeques">Intereses</h3>
+						<li><i class="fa fa-heart circulo circuloColor" aria-hidden="true"></i><h3 class="alinarAboutMe	textListIntereses"> Manualidades</h3></li>
+						<li><i class="fa fa-globe circulo circuloColor" aria-hidden="true"></i><h3 class="alinarAboutMe	textListIntereses">   Viajar</h3></li>
+						<li><i class="fa fa-desktop circulo circuloColor" aria-hidden="true"></i><h3 class="alinarAboutMe	textListIntereses"> Diseño</h3></li>
+						<li><i class="fa fa-code circulo circuloColor" aria-hidden="true"></i><h3 class="alinarAboutMe	textListIntereses"> Programar</h3></li>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Fin About Me Mobile -->
 	</section>
 	<!-- Fin Abaut Me -->
 	<!-- Habilidades -->

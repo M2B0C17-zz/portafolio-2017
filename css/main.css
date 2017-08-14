@@ -9,16 +9,15 @@ body{
    font-family: 'Josefin Sans', sans-serif;
 }
 
-li, li:hover{
+a, a:hover, li, li:hover{
    list-style: none;
+   text-decoration: none;
 }   
 
-header{
+.header{
    background-color: #cf8e32;
-   color: white;
    height: 100vh;
    text-align: center;
-
 }
 
 /* Menú */
@@ -146,13 +145,13 @@ header{
 }
 
 .pAbaoutMe{
-   color: #752720;
-   font-weight: 600;
-   font-size: 16px;
-   padding-top: 14%;
-   padding-left: 4%;
-   padding-right: 4%;
-   text-align: justify;
+  color: #752720;
+  font-weight: 600;
+  font-size: 16px;
+  padding-top: 14%;
+  padding-left: 4%;
+  padding-right: 4%;
+  text-align: justify;
 }
 
 .nombre{
@@ -164,13 +163,13 @@ header{
 }
 
 .bajdaNombre{
-   color: #752720;
-   font-weight: 400;
-   font-size: 17px;
-   padding-left: 4%;
-   padding-right: 4%;
-   text-align: justify;
-   margin-top: -10px;
+  color: #752720;
+  font-weight: 400;
+  font-size: 17px;
+  padding-left: 4%;
+  padding-right: 4%;
+  text-align: justify;
+  margin-top: -10px;
 }
 
 .contacto{
@@ -181,7 +180,7 @@ header{
 }
 
 .imagenDeMi{
-   width:  300px;
+   width: 300px;
    border: 10px solid transparent;
    border-radius: 200px;
    width: 87%;
@@ -654,6 +653,124 @@ header{
 }
 /* Fin Footer */
 
-/* Hover Especiales  ·······························································································*/
+/* MOBILE  ·······························································································*/
 /*··················································································································*/
 
+/* MKB */
+.baseMobileMkb{
+  background-color: #cf8e32;
+  height: 50vh;
+  text-align: center;
+}
+
+/* Menu Mobile -------------------------------------------------------------------------- */
+
+.menuMobile{
+  width: 51px;
+  z-index: 500;
+  position: fixed;
+  top: 30%;
+  background-color: black; /* color caja menu Mobile */
+  border: none;
+}
+
+.iconoAbourMeMobile{
+  font-size: 25px;
+  z-index: 9000;
+  position: fixed;
+  color: #efe6d4; /* color piel */
+  position: absolute;
+}
+
+.icon1MobileMenu{
+  padding-left: 74px;
+}
+
+.icon2MobileMenu{
+  padding-left: 47px;
+}
+
+.icon3MobileMenu{
+  padding-left: 69px;
+}
+
+.icon4MobileMenu{
+  padding-left: 70px;
+}
+
+.seccionMenuMobile{
+  padding-left: 20px;
+  font-size: 20px;
+  color: #efe6d4;
+  padding-top: 10px;
+  position: absolute;
+}
+
+.seccionMenuMobile:hover{
+  color: #efe6d4;
+}
+
+.nav.sidebar:hover {
+    margin-left: 0;
+}
+
+.top2{
+    margin-top: 49px;
+}
+
+.top3{
+    margin-top: 98px;
+}
+
+.top4{
+    margin-top: 147px;
+}
+
+/* Efecto Manu Mobile */
+
+nav.sidebar .navbar-collapse, nav.sidebar .container-fluid{
+  padding: 0 0px 0 0px;
+}
+
+nav.sidebar{
+  width: 200px;
+  margin-left: -168px;
+  float: left;
+  z-index: 8000;
+  margin-bottom: 0px;
+}
+
+nav.sidebar li {
+  width: 100%;
+}
+
+nav.sidebar:hover{
+  margin-left: -20px;
+}
+
+div > nav > div > ul{
+  width: 198px;
+}
+
+nav.sidebar, .main{
+  -webkit-transition: margin 300ms ease-out;
+  -moz-transition: margin 300ms ease-out;
+  -o-transition: margin 300ms ease-out;
+  transition: margin 300ms ease-out;
+}
+
+/* About Me Mobile ----------------------------------------------------------------------------- */
+
+.paddingMobile{
+  padding-left: 40px;
+}
+
+.bajdaNombreMobile{
+  color: #752720;
+  font-weight: 400;
+  font-size: 16.8px;
+  padding-left: 4%;
+  padding-right: 4%;
+  text-align: justify;
+  margin-top: -10px;
+}
