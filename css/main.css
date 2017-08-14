@@ -659,8 +659,12 @@ a, a:hover, li, li:hover{
 /* MKB */
 .baseMobileMkb{
   background-color: #cf8e32;
-  height: 50vh;
+  height: 80vh;
   text-align: center;
+}
+
+.imgMobile{
+  margin-top: 40%;
 }
 
 /* Menu Mobile -------------------------------------------------------------------------- */
@@ -761,6 +765,12 @@ nav.sidebar, .main{
 
 /* About Me Mobile ----------------------------------------------------------------------------- */
 
+.fondoAboutMeMobile{
+  background-color: #efe6d4;
+  height: 125vh;
+  padding-top: 20px;
+}
+
 .paddingMobile{
   padding-left: 40px;
 }
@@ -768,9 +778,73 @@ nav.sidebar, .main{
 .bajdaNombreMobile{
   color: #752720;
   font-weight: 400;
-  font-size: 16.8px;
+  font-size: 14.5px;
   padding-left: 4%;
   padding-right: 4%;
   text-align: justify;
   margin-top: -10px;
+}
+
+.nombreMobile{
+  padding-left: 3%;
+  padding-right: 4%;
+  font-size: 35.8px;
+  font-weight: 400;
+  color: #a2482b;
+}
+
+.sobreMiMobile{
+  color: #cf8e32;
+  font-size: 40px;
+  font-weight: medium;
+  padding-left: 50px;
+}
+
+.titulosPequesMobile{
+  font-size: 30px;
+  font-weight: 400;
+  text-align: left;
+  color: #a2482b;
+  margin-left: 19px;
+}
+
+/* Habilidades Mobile --------------------------------------------------------------------------- */
+
+.fondoHabilidadesMobile{
+  background-color: #efe6d4; /* Color piel */
+  height: 130vh;
+}
+
+.bajoTituloHabili{
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.habilidadesMobile{
+  color: #cf8e32;
+  font-size: 40px;
+  font-weight: medium;
+  padding-left: 50px;
+}
+
+.paddingLeftMobileHabili{
+  padding-left: 70px;
+}
+
+.leftPaddingMobile{
+  margin-left: -10px;
+}
+
+/* Proyectos Mobile ----------------------------------------------------------------------------- */
+.fondoProyectosMobile{
+  background-color: #efe6d4; /* Color piel */
+  height: 360vh;
+}
+
+.imgMobileProyect{
+  margin-top: 10%;
+}
+
+.paddingMobileProyect{
+  padding-left: 55px;  
 }

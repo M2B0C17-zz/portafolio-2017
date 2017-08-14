@@ -33,7 +33,7 @@
 				<!-- Fin Desktop -->
 				<!-- Mobile -->
 				<div class="hidden-lg hidden-md col-sm-12 col-xs-12 baseMobileMkb">
-				    <img src="img/logoMKB.png" class="img">
+				    <img src="img/logoMKB.png" class="imgMobile">
 				</div>
 				<!-- Fin Mobile -->
 			</div>
@@ -50,20 +50,20 @@
 	<!-- Menú Mobile -->
 	<div class="hidden-lg hidden-md col-sm-3 col-xs-3">
         <nav class="navbar navbar-inverse sidebar menuMobile top1">
-        	<a href="#sobreMi" class="seccionMenuMobile">Sobre Mí<i class="fa fa-user icon1MobileMenu iconoAbourMeMobile" aria-hidden="true"></i></a>
+        	<a href="#sobreMiMobile" class="seccionMenuMobile">Sobre Mí<i class="fa fa-user icon1MobileMenu iconoAbourMeMobile" aria-hidden="true"></i></a>
         </nav>
         <nav class="navbar navbar-inverse sidebar menuMobile top2">
-        	<a href="#skills" class="seccionMenuMobile">Habilidades<i class="fa fa-cogs icon2MobileMenu iconoAbourMeMobile" aria-hidden="true"></i></a>
+        	<a href="#skillsMobile" class="seccionMenuMobile">Habilidades<i class="fa fa-cogs icon2MobileMenu iconoAbourMeMobile" aria-hidden="true"></i></a>
         </nav>
         <nav class="navbar navbar-inverse sidebar menuMobile top3">
-        	<a href="#proyectos" class="seccionMenuMobile">Proyectos<i class="fa fa-laptop icon3MobileMenu iconoAbourMeMobile" aria-hidden="true"></i></a>
+        	<a href="#proyectosMobile" class="seccionMenuMobile">Proyectos<i class="fa fa-laptop icon3MobileMenu iconoAbourMeMobile" aria-hidden="true"></i></a>
         </nav>
         <nav class="navbar navbar-inverse sidebar menuMobile top4">
-        	<a href="#contacto" class="seccionMenuMobile">Contacto<i class="fa fa-envelope icon4MobileMenu iconoAbourMeMobile" aria-hidden="true"></i></a>
+        	<a href="#contactoMobile" class="seccionMenuMobile">Contacto<i class="fa fa-envelope icon4MobileMenu iconoAbourMeMobile" aria-hidden="true"></i></a>
         </nav>
     </div>
 	<!-- About Me -->
-	<section class="fondoAboutMe" id="sobreMi">
+	<section class="hidden-sm hidden-xs fondoAboutMe" id="sobreMi">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 hidden-sm hidden-xs">
@@ -92,22 +92,24 @@
 				</div>
 			</div>
 		</div>
-		<!-- About Me Mobile -->
-		<div class="container-fluid">
+	</section>
+	<!-- About Me Mobile -->
+	<section class="fondoAboutMeMobile hidden-lg hidden-md" id="sobreMiMobile">
+		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 col-xs-12 hidden-lg hidden-md">
-					<h1 class="sobreMi">SOBRE MÍ</h1>
+					<h1 class="sobreMiMobile">SOBRE MÍ</h1>
 				</div>
 			</div>
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12 col-xs-12 hidden-lg hidden-md paddingMobile">
-						<h3 class="nombre">Macarena Baltra</h3>
+						<h3 class="nombreMobile">Macarena Baltra</h3>
 				        <h5 class="bajdaNombreMobile">Front End Developer Jr. & Graphic Design</h5>
 						<p class="pAbaoutMe">Soy Diseñadora Gráfica y me apasiona el diseño en general. Tengo experiencia en el diseño de logotipo, ilustración, diseño editorial y diseño publicitario. Soy una persona trabajadora muy comprometida con mis responsabilidades, transparente, entusiasta, creativa y pro-activa, que trabaja con pasión los diversos trabajos encomendados por mis clientes. En mi tiempo libre me gusta encuadernar y aprender diferentes cosas. Actualmente me encuentro inmersa en el fascinante mundo de la programación web en Laboratoria.</p>  
 					</div>
 					<div class="col-sm-12 col-xs-12 hidden-lg hidden-md paddingMobile">
-						<h3 class="titulosPeques">Intereses</h3>
+						<h3 class="titulosPequesMobile">Intereses</h3>
 						<li><i class="fa fa-heart circulo circuloColor" aria-hidden="true"></i><h3 class="alinarAboutMe	textListIntereses"> Manualidades</h3></li>
 						<li><i class="fa fa-globe circulo circuloColor" aria-hidden="true"></i><h3 class="alinarAboutMe	textListIntereses">   Viajar</h3></li>
 						<li><i class="fa fa-desktop circulo circuloColor" aria-hidden="true"></i><h3 class="alinarAboutMe	textListIntereses"> Diseño</h3></li>
@@ -119,8 +121,8 @@
 		<!-- Fin About Me Mobile -->
 	</section>
 	<!-- Fin Abaut Me -->
-	<!-- Habilidades -->
-	<section class="fondoHabilidades" id="skills">
+	<!-- Habilidades Desktop -->
+	<section class="fondoHabilidades hidden-sm hidden-xs" id="skills">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 hidden-sm hidden-xs">
@@ -129,7 +131,7 @@
 					</div>   
 				</div>
 			</div>
-			<div class="container">
+			<div class="container hidden-sm hidden-xs">
 				<div class="row">
 					<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">					
 						<!-- Developer 1 -->
@@ -182,7 +184,7 @@
 				</div>
 			</div>
 			<!-- Parte B de Developer -->
-			<div class="container habilidades2">
+			<div class="container habilidades2 hidden-sm hidden-xs">
 				<div class="row">
 					<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">					
 						<!-- Developer 1 -->
@@ -236,62 +238,231 @@
 			</div>
 		</div>
 		<!-- Parte A de Design -->
-			<div class="container habilidades3">
+		<div class="container habilidades3 hidden-sm hidden-xs">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">					
+					<!-- Design 1 -->
+					<div class="progress color">
+					    <span class="progress-left">
+					        <span class="progress-bar"></span>
+					    </span>
+					    <span class="progress-right">
+					        <span class="progress-bar"></span>
+					    </span>
+						<div class="progress-value"><img class="img-responsive imgSize" src="img/adobe_indesign_icon.png"></div>
+					</div>   	
+				</div>
+				<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">					
+					<!-- Design 2 -->
+					<div class="progress color">
+					    <span class="progress-left">
+					        <span class="progress-bar"></span>
+					    </span>
+					    <span class="progress-right">
+					        <span class="progress-bar"></span>
+					    </span>
+					    <div class="progress-value"><img class="img-responsive imgSize" src="img/illustrator_cc.png"></div>
+					</div> 	    	 
+				</div>
+				<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">					
+					<!-- Design 3 -->
+					<div class="progress color">
+					    <span class="progress-left">
+					        <span class="progress-bar"></span>
+					    </span>
+					    <span class="progress-right">
+					        <span class="progress-bar"></span>
+					    </span>
+					    <div class="progress-value"><img class="img-responsive imgSize" src="img/Photoshop_CC_icon.png"></div>
+					</div>     	 
+				</div>
+				<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">					
+					<!-- Design 4 -->
+					<div class="progress color">
+					    <span class="progress-left">
+					        <span class="progress-bar"></span>
+					    </span>
+					    <span class="progress-right">
+					        <span class="progress-bar"></span>
+					    </span>
+					    <div class="progress-value"><img class="img-responsive imgSize" src="img/AECC2014icon.png"></div>
+					</div>     	 
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Habilidades Mobile -->
+	<section class="fondoHabilidadesMobile hidden-lg hidden-md" id="skillsMobile">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12 col-xs-12 hidden-lg hidden-md">
+					<h1 class="habilidadesMobile">HABILIDADES</h1>
+				</div>
+			</div>
+			<div class="container bajoTituloHabili">
 				<div class="row">
-					<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">					
-						<!-- Design 1 -->
-						<div class="progress color">
+					<div class="col-sm-6 col-xs-6 hidden-lg hidden-md">					
+						<!-- Developer 1 -->
+						<div class="progress color7">
 						    <span class="progress-left">
 						        <span class="progress-bar"></span>
 						    </span>
 						    <span class="progress-right">
 						        <span class="progress-bar"></span>
 						    </span>
-							<div class="progress-value"><img class="img-responsive imgSize" src="img/adobe_indesign_icon.png"></div>
-						</div>   	
+							<div class="progress-value"><img class="img-responsive imgSize" src="img/HTML5_Badge_256.png"></div>
+						</div>    	
 					</div>
-					<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">					
-						<!-- Design 2 -->
-						<div class="progress color">
+					<div class="col-sm-6 col-xs-6 hidden-lg hidden-md">					
+						<!-- Developer 2 -->
+						<div class="progress color7">
 						    <span class="progress-left">
 						        <span class="progress-bar"></span>
 						    </span>
 						    <span class="progress-right">
 						        <span class="progress-bar"></span>
 						    </span>
-						    <div class="progress-value"><img class="img-responsive imgSize" src="img/illustrator_cc.png"></div>
-						</div> 	    	 
-					</div>
-					<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">					
-						<!-- Design 3 -->
-						<div class="progress color">
-						    <span class="progress-left">
-						        <span class="progress-bar"></span>
-						    </span>
-						    <span class="progress-right">
-						        <span class="progress-bar"></span>
-						    </span>
-						    <div class="progress-value"><img class="img-responsive imgSize" src="img/Photoshop_CC_icon.png"></div>
+						    <div class="progress-value"><img class="img-responsive imgSize" src="img/logo-javascript.png"></div>
 						</div>     	 
 					</div>
-					<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">					
-						<!-- Design 4 -->
-						<div class="progress color">
+				</div>
+				<div class="row">
+					<div class="col-sm-6 col-xs-6 hidden-lg hidden-md">					
+						<!-- Developer 3 -->
+						<div class="progress color7">
 						    <span class="progress-left">
 						        <span class="progress-bar"></span>
 						    </span>
 						    <span class="progress-right">
 						        <span class="progress-bar"></span>
 						    </span>
-						    <div class="progress-value"><img class="img-responsive imgSize" src="img/AECC2014icon.png"></div>
+						    <div class="progress-value"><img class="img-responsive imgSize" src="img/badge-css-3-128.png"></div>
+						</div>     	 
+					</div>
+					<div class="col-sm-6 col-xs-6 hidden-lg hidden-md">					
+						<!-- Developer 4 -->
+						<div class="progress color7">
+						    <span class="progress-left">
+						        <span class="progress-bar"></span>
+						    </span>
+						    <span class="progress-right">
+						        <span class="progress-bar"></span>
+						    </span>
+						    <div class="progress-value"><img class="img-responsive imgSize" src="img/sass.png"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 col-xs-6 hidden-lg hidden-md">					
+						<!-- Developer 1 -->
+						<div class="progress color7">
+						    <span class="progress-left">
+						        <span class="progress-bar"></span>
+						    </span>
+						    <span class="progress-right">
+						        <span class="progress-bar"></span>
+						    </span>
+							<div class="progress-value"><img class="img-responsive imgSize" src="img/jQurery.gif"></div>
+						</div>   	
+					</div>
+					<div class="col-sm-6 col-xs-6 hidden-lg hidden-md">					
+						<!-- Developer 2 -->
+						<div class="progress color7">
+						    <span class="progress-left">
+						        <span class="progress-bar"></span>
+						    </span>
+						    <span class="progress-right">
+						        <span class="progress-bar"></span>
+						    </span>
+						    <div class="progress-value"><img class="img-responsive imgSize" src="img/Boostrap_logo.png"></div>
+						</div> 	    	 
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 col-xs-6 hidden-lg hidden-md">					
+						<!-- Developer 3 -->
+						<div class="progress color7">
+						    <span class="progress-left">
+						        <span class="progress-bar"></span>
+						    </span>
+						    <span class="progress-right">
+						        <span class="progress-bar"></span>
+						    </span>
+						    <div class="progress-value"><img class="img-responsive imgSize" src="img/github-icon.png"></div>
+						</div>     	 
+					</div>
+					<div class="col-sm-6 col-xs-6 hidden-lg hidden-md">					
+						<!-- Developer 3 -->
+						<div class="progress color7">
+						    <span class="progress-left">
+						        <span class="progress-bar"></span>
+						    </span>
+						    <span class="progress-right">
+						        <span class="progress-bar"></span>
+						    </span>
+						    <div class="progress-value"><img class="img-responsive imgSize gulp" src="img/gulp.png"></div>
 						</div>     	 
 					</div>
 				</div>
 			</div>
+		</div>
+		<!-- Parte A de Design -->
+		<div class="row">
+			<div class="col-sm-6 col-xs-6 hidden-lg hidden-md paddingLeftMobileHabili">				
+				<!-- Design 1 -->
+				<div class="progress color">
+					<span class="progress-left">
+					    <span class="progress-bar"></span>
+					</span>
+					<span class="progress-right">
+					    <span class="progress-bar"></span>
+					</span>
+					<div class="progress-value"><img class="img-responsive imgSize" src="img/adobe_indesign_icon.png"></div>
+				</div>   	
+			</div>
+			<div class="col-sm-6 col-xs-6 hidden-lg hidden-md leftPaddingMobile">				
+				<!-- Design 2 -->
+				<div class="progress color">
+					<span class="progress-left">
+					    <span class="progress-bar"></span>
+					</span>
+					<span class="progress-right">
+					    <span class="progress-bar"></span>
+					</span>
+					<div class="progress-value"><img class="img-responsive imgSize" src="img/illustrator_cc.png"></div>
+				</div> 	    	 
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 col-xs-6 hidden-lg hidden-md paddingLeftMobileHabili">
+				<!-- Design 3 -->
+				<div class="progress color">
+					<span class="progress-left">
+					    <span class="progress-bar"></span>
+					</span>
+					<span class="progress-right">
+					    <span class="progress-bar"></span>
+					</span>
+					<div class="progress-value"><img class="img-responsive imgSize" src="img/Photoshop_CC_icon.png"></div>
+				</div>     	 
+			</div>
+			<div class="col-sm-6 col-xs-6 hidden-lg hidden-md leftPaddingMobile">
+				<!-- Design 4 -->
+				<div class="progress color">
+				    <span class="progress-left">
+				        <span class="progress-bar"></span>
+				    </span>
+				    <span class="progress-right">
+				        <span class="progress-bar"></span>
+				    </span>
+				    <div class="progress-value"><img class="img-responsive imgSize" src="img/AECC2014icon.png"></div>
+				</div>     	 
+			</div>
+		</div>
 	</section>
-	<!-- Fin Habilidades -->
-	<!-- Proyectos -->
-	<section class="paddingtop" id="proyectos">
+	<!-- Fin Habilidades Mobile -->
+	<!-- Proyectos Desktop-->
+	<section class="hidden-sm hidden-xs paddingtop" id="proyectos">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 hidden-sm hidden-xs">
@@ -419,7 +590,134 @@
 		</div>
 	</section>
 	<!-- Fin Proyectos -->
-	<!-- Footer -->
+	<!-- Proyectos Mobile -->
+	<section class=" hidden-lg hidden-md fondoProyectosMobile" id="proyectosMobile">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12 col-xs-12 hidden-lg hidden-md">
+					<h1 class="habilidadesMobile">PROYECTOS</h1>  
+				</div>
+			</div>
+			<div class="container paddingMobileProyect">
+				<div class="row text-center">
+					<div class="col-sm-12 col-xs-12 hidden-lg hidden-md imgMobileProyect">
+						<div class="cours2" style="overflow:hidden;">
+							<img src="img/app-love-flexbox.png" class="img-responsive imgProject">
+							<div class="cours3">
+								<h2 class="tituloProject">APPLOVE</h2>
+								<h4 style="text-align: center;" class="textProject">Flexbox - CSS3 - HTML5</h4>				
+							</div>
+							<div class="cours4 text-center">
+								<a href="https://github.com/M2B0C17/applove-flexbox"><i class="fa fa-github-square iconoProyectosSize" aria-hidden="true"></i></a>
+								<a href="https://m2b0c17.github.io/applove-flexbox/"><i class="fa fa-eye iconoProyectosSize" aria-hidden="true"></i></a>
+							</div>
+						</div>
+						<div class="cours2" style="overflow: hidden;">
+							<img src="img/calculadora.png" class="img-responsive imgProject">
+							<div class="cours3">
+								<h2 class="tituloProject">CALCULADORA</h2>
+								<h4 style="text-align: center;" class="textProject">CSS3 - HTML5 - JQuery</h4>				
+							</div>
+							<div class="cours4 text-center">
+								<a href="https://github.com/M2B0C17/calculadora_lab"><i class="fa fa-github-square iconoProyectosSize" aria-hidden="true"></i></a>
+								<a href="https://m2b0c17.github.io/calculadora_lab/"><i class="fa fa-eye iconoProyectosSize" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-xs-12 hidden-lg hidden-md">
+						<div class="cours2" style="overflow:hidden;">
+							<img src="img/dribble.png" class="img-responsive imgProject">
+							<div class="cours3">
+								<h2 class="tituloProject">DRIBBBLE</h2>
+								<p style="text-align: center;" class="textProject">Trabajo Colaborativo</p>
+								<h4 style="text-align: center;" class="textProject">jQuery - API - CSS3 - HTML5</h4>				
+							</div>
+							<div class="cours4 text-center">
+								<a href="https://github.com/M2B0C17/dribbble-lab"><i class="fa fa-github-square iconoProyectosSize" aria-hidden="true"></i></a>
+								<a href="https://moharan.github.io/dribbble-lab/"><i class="fa fa-eye iconoProyectosSize" aria-hidden="true"></i></a>
+							</div>
+						</div>
+						<div class="cours2" style="overflow:hidden;">
+							<img src="img/casita.png" class="img-responsive imgProject">
+							<div class="cours3">
+								<h2 class="tituloProject">LA CASITA</h2>
+								<h4 style="text-align: center;" class="textProject">Flexbox - CSS3 - HTML5</h4>				
+							</div>
+							<div class="cours4 text-center">
+								<a href="https://github.com/M2B0C17/la-casita"><i class="fa fa-github-square iconoProyectosSize" aria-hidden="true"></i></a>
+								<a href="https://m2b0c17.github.io/la-casita/"><i class="fa fa-eye iconoProyectosSize" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-xs-12 hidden-lg hidden-md">
+						<div class="cours2" style="overflow:hidden;">
+							<img src="img/dobby-spa.png" class="img-responsive imgProject">
+							<div class="cours3">
+								<h2 class="tituloProject">DOBBY SPA</h2>
+								<h4 style="text-align: center;" class="textProject">SASS - HTML5</h4>				
+							</div>
+							<div class="cours4 text-center">
+								<a href="https://github.com/M2B0C17/dobby-spa"><i class="fa fa-github-square iconoProyectosSize" aria-hidden="true"></i></a>
+								<a href="https://m2b0c17.github.io/dobby-spa/"><i class="fa fa-eye iconoProyectosSize" aria-hidden="true"></i></a>
+							</div>
+						</div>
+						<div class="cours2" style="overflow:hidden;">
+							<img src="img/labcar.png" class="img-responsive imgProject">
+							<div class="cours3">
+								<h2 class="tituloProject">LABCAR</h2>
+								<h4 style="text-align: center;" class="textProject">Javascript - CSS3 - HTML5 - API</h4>				
+							</div>
+							<div class="cours4 text-center">
+								<a href="https://github.com/M2B0C17/labcar"><i class="fa fa-github-square iconoProyectosSize" aria-hidden="true"></i></a>
+								<a href="https://m2b0c17.github.io/labcar/"><i class="fa fa-eye iconoProyectosSize" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-xs-12 hidden-lg hidden-md">
+						<div class="cours2" style="overflow:hidden;">
+							<img src="img/culinaryLab.png" class="img-responsive imgProject">
+							<div class="cours3">
+								<h2 class="tituloProject">CULINARY LAB</h2>
+								<h4 style="text-align: center;" class="textProject">Bootstrap - jQuery - CSS3 - HTML5</h4>				
+							</div>
+							<div class="cours4 text-center">
+								<a href="https://github.com/M2B0C17/culinary-lab"><i class="fa fa-github-square iconoProyectosSize" aria-hidden="true"></i></a>
+								<a href="https://m2b0c17.github.io/culinary-lab/"><i class="fa fa-eye iconoProyectosSize" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-xs-12 hidden-lg hidden-md">
+						<div class="cours2" style="overflow:hidden;">
+							<img src="img/portfolio-sass.png" class="img-responsive imgProject">
+							<div class="cours3">
+								<h2 class="tituloProject">PORTAFOLIO SASS</h2>
+								<h4 style="text-align: center;" class="textProject">SASS - Bootstrap - HTML5</h4>				
+							</div>
+							<div class="cours4 text-center">
+								<a href="https://github.com/M2B0C17/portafolio-sass"><i class="fa fa-github-square iconoProyectosSize" aria-hidden="true"></i></a>
+								<a href="https://m2b0c17.github.io/portafolio-sass/"><i class="fa fa-eye iconoProyectosSize" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-xs-12 hidden-lg hidden-md">
+						<div class="cours2" style="overflow:hidden;">
+							<img src="img/" class="img-responsive imgProject">
+							<div class="cours3">
+								<h2 class="tituloProject">PRONTO</h2>
+								<h4 style="text-align: center;" class="textProject">Trabajando ...</h4>				
+							</div>
+							<div class="cours4 text-center">
+								<a href="#"><i class="fa fa-github-square iconoProyectosSize" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-eye iconoProyectosSize" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Fin Proyectos Mobile -->
+	<!-- Footer Desktop -->
 	<footer class="fondoFooter" id="contacto">
 		<div class="container cajaPrimerFoot">
 			<div class="row">
