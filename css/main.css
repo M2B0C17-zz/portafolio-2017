@@ -767,7 +767,7 @@ nav.sidebar, .main{
 
 .fondoAboutMeMobile{
   background-color: #efe6d4;
-  height: 125vh;
+  height: 150vh;
   padding-top: 20px;
 }
 
@@ -822,9 +822,9 @@ nav.sidebar, .main{
 
 .habilidadesMobile{
   color: #cf8e32;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: medium;
-  padding-left: 50px;
+  margin-left: 50px;
 }
 
 .paddingLeftMobileHabili{
