@@ -492,7 +492,6 @@ a, a:hover, li, li:hover{
     .progress{ margin-bottom: 20px; }
 }
 
-
 /* Fin de Habilidades */
 
 /* Proyectos  -----------------------------------------------------------------*/
@@ -838,7 +837,11 @@ nav.sidebar, .main{
 /* Proyectos Mobile ----------------------------------------------------------------------------- */
 .fondoProyectosMobile{
   background-color: #efe6d4; /* Color piel */
-  height: 390vh;
+  height: 400vh;
+}
+
+.textProjectMobile{
+  font-size: 13px;
 }
 
 .imgMobileProyect{
