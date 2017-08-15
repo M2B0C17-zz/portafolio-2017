@@ -838,7 +838,7 @@ nav.sidebar, .main{
 /* Proyectos Mobile ----------------------------------------------------------------------------- */
 .fondoProyectosMobile{
   background-color: #efe6d4; /* Color piel */
-  height: 360vh;
+  height: 390vh;
 }
 
 .imgMobileProyect{
@@ -847,4 +847,13 @@ nav.sidebar, .main{
 
 .paddingMobileProyect{
   padding-left: 55px;  
+}
+
+.paddingtopIconosProyectMobile{
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
+.iconoMobileColorProyect{
+  color: #a2482b;
 }
