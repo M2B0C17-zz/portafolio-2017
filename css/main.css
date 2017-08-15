@@ -172,13 +172,6 @@ a, a:hover, li, li:hover{
   margin-top: -10px;
 }
 
-.contacto{
-   color: #efe6d4;
-   font-size: 50px;
-   font-weight: medium;
-   text-align: center;
-}
-
 .imagenDeMi{
    width: 300px;
    border: 10px solid transparent;
@@ -597,6 +590,12 @@ a, a:hover, li, li:hover{
 
 /* Fin Proyectos */
 /* Footer  -----------------------------------------------------------------*/
+.contacto{
+   color: #efe6d4;
+   font-size: 50px;
+   font-weight: medium;
+   text-align: center;
+}
 
 .centrarMiniCirculosContactos{
   padding-left: 530px;
@@ -766,7 +765,7 @@ nav.sidebar, .main{
 
 .fondoAboutMeMobile{
   background-color: #efe6d4;
-  height: 150vh;
+  height: 822px;
   padding-top: 20px;
 }
 
@@ -811,7 +810,7 @@ nav.sidebar, .main{
 
 .fondoHabilidadesMobile{
   background-color: #efe6d4; /* Color piel */
-  height: 150vh;
+  height: 871px;
 }
 
 .bajoTituloHabili{
@@ -837,7 +836,7 @@ nav.sidebar, .main{
 /* Proyectos Mobile ----------------------------------------------------------------------------- */
 .fondoProyectosMobile{
   background-color: #efe6d4; /* Color piel */
-  height: 430vh;
+  height: 1757px;
 }
 
 .textProjectMobile{
@@ -859,4 +858,21 @@ nav.sidebar, .main{
 
 .iconoMobileColorProyect{
   color: #a2482b;
+}
+
+/* Footer Mobile -------------------------------------------------------------------------------- */
+.fondoFooterMobile{
+  background-color: #cf8e32; /* Color naranjo */
+  height: 560px;
+}
+
+.contactoMobileTitulo{
+  color: #efe6d4;
+  padding-top: 30px;
+}
+
+.mailMobile{
+  color: #efe6d4;
+  font-size: 20px;
+  font-weight: medium;
 }
