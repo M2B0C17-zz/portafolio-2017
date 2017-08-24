@@ -20,6 +20,14 @@ a, a:hover, li, li:hover{
    text-align: center;
 }
 
+.titNomHeader{
+  color: #efe6d4;
+}
+
+.textNomHeader{
+  color: #752720;
+}
+
 /* Menú */
 .navCirculos{
   top: 45%;
