@@ -20,6 +20,10 @@ a, a:hover, li, li:hover{
    text-align: center;
 }
 
+.cajaInicio{
+  margin-top: -60px;
+}
+
 .titNomHeader{
   color: #efe6d4;
 }
